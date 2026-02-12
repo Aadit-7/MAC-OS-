@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.scss";
-import DateTime from "./DateTime";
+import DateTime from "../DateTime";
 
 const Navbar = () => {
   return (
