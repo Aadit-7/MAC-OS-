@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1572177812156-58036aae439c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Portfolio Website",
+    "description": "A personal developer portfolio built using React and Tailwind CSS with smooth animations.",
+    "tags": ["React", "Tailwind", "GSAP"],
+    "repoLink": "https://github.com/yourusername/portfolio",
+    "demoLink": "https://yourportfolio.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1572177812156-58036aae439c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Crypto Price Tracker",
+    "description": "A real-time crypto tracking app using Redux Toolkit with simulated WebSocket updates.",
+    "tags": ["React", "Redux Toolkit", "API"],
+    "repoLink": "https://github.com/yourusername/crypto-tracker",
+    "demoLink": "https://crypto-tracker-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1572177812156-58036aae439c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Notes App",
+    "description": "Full-stack notes application with JWT authentication and MongoDB integration.",
+    "tags": ["Node.js", "Express", "MongoDB", "JWT"],
+    "repoLink": "https://github.com/yourusername/notes-app",
+    "demoLink": "https://notes-app-demo.onrender.com"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1572177812156-58036aae439c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Figma Clone (DOM Project)",
+    "description": "A DOM-based design tool allowing drag, resize, rotate, and layer management without canvas.",
+    "tags": ["JavaScript", "DOM", "CSS"],
+    "repoLink": "https://github.com/yourusername/figma-clone",
+    "demoLink": null
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1572177812156-58036aae439c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Job Search Automation Tool",
+    "description": "A Python automation script that fetches job listings from multiple APIs and sends daily email summaries.",
+    "tags": ["Python", "Automation", "API", "SMTP"],
+    "repoLink": "https://github.com/yourusername/job-search-automation",
+    "demoLink": "https://github.com/yourusername/job-search-automation"
+  }
+]

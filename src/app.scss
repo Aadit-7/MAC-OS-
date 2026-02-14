@@ -26,6 +26,9 @@ body {
 
   background-image: url(../public/BGI4.jpg);
 
+  position: relative;
+  overflow: hidden;
+
   background-position: center;
   background-size: cover;
 }
