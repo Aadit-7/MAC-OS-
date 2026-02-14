@@ -85,9 +85,9 @@ ${Object.keys(commands).join("\n")}
 Type 'about' to get started.
 `;
 
-const Cli = () => {
+const Cli = ({ windowName, setWindowState }) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowState={setWindowState}>
       <div className="cliWindow">
         <Terminal
           commands={commands}
