@@ -1,16 +1,60 @@
-# React + Vite
+# 🖥️ macOS Portfolio – Interactive Desktop UI  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![SCSS](https://img.shields.io/badge/SCSS-Styling-pink?logo=sass)
+![react-rnd](https://img.shields.io/badge/react--rnd-Draggable%20UI-green)
+![Terminal](https://img.shields.io/badge/react--console--emulator-CLI-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Currently, two official plugins are available:
+An interactive macOS-inspired portfolio built with **React** that simulates a desktop operating system inside the browser.  
+Users can open draggable windows, interact with a terminal, and navigate through projects like a real OS experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Concept
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A browser-based macOS UI featuring:
 
-## Expanding the ESLint configuration
+- 🪟 Draggable & Resizable Windows  
+- 🔴 Close Screen Controls  
+- 💻 Interactive CLI Terminal  
+- 💬 Custom Tooltip System (Delayed Show + Instant Hide)  
+- 🎨 Smooth SCSS Animations  
+- 📜 Custom Scrollbar Styling  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Newly Learned & Implemented Packages
+
+### 🔹 `react-rnd.`
+Used for:
+- Draggable window movement
+- Resizable UI components
+- Controlled position and size handling
+
+### 🔹 `react-markdown.`
+Used for:
+- Rendering markdown content inside Windows
+- Displaying formatted README or documentation pages
+
+### 🔹 `react-syntax-highlighter.`
+Used for:
+- Displaying code blocks with syntax highlighting
+- Improving readability of technical content
+
+### 🔹 `react-console-emulator.`
+Used for:
+- Building a functional CLI interface
+- Creating custom terminal commands
+- Simulating a real command-line experience
+
+### 🔹 `sass.`
+Used for:
+- Advanced styling with nesting
+- Modular SCSS structure
+- Cleaner and scalable styling system
+
+---
+
+## 🚀 Live link 
+https://mac-os-smoky.vercel.app/
