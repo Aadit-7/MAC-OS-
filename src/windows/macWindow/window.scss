@@ -1,7 +1,6 @@
 .window {
   background-color: #000000;
   border-radius: 0.75rem;
-
   overflow: hidden;
   height: 100%;
 
@@ -17,43 +16,67 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 0.25rem;
-      cursor: pointer;
+      gap: 0.5rem;
 
-      p {
-        text-transform: capitalize;
-      }
       .dot {
         height: 15px;
         width: 15px;
-
-        background-color: #fff;
+        position: relative;
         border-radius: 50%;
+        cursor: pointer;
+
+        /* Tooltip */
+        .tooltip {
+          position: absolute;
+          bottom: 160%;
+          left: 50%;
+          transform: translateX(-1%);
+          background: #111;
+          color: #fff;
+          padding: 4px 8px;
+          font-size: 10px;
+          border-radius: 4px;
+          white-space: nowrap;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.2s ease;
+        }
+
+        /* Delay only when appearing */
+        &:hover .tooltip {
+          opacity: 1;
+          transition-delay: 1s;
+        }
+
+        /* Instant hide */
+        &:not(:hover) .tooltip {
+          transition-delay: 0s;
+        }
       }
+
       .red {
-        background-color: red;
+        background-color: #ff5f56;
       }
-      &
-      :hover {
-      content: attr(data-title);
-    }
+
       .yellow {
-        background-color: yellow;
+        background-color: #ffbd2e;
       }
+
       .green {
-        background-color: green;
+        background-color: #27c93f;
       }
     }
-
-
   }
+
   .main {
     height: 100%;
   }
 
+  /* Scrollbar */
   *::-webkit-scrollbar {
     width: 5px;
   }
+
   *::-webkit-scrollbar-thumb {
     background-color: #4f4d4d;
     border-radius: 1rem;

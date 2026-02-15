@@ -7,7 +7,6 @@ import Notes from "./windows/notes/Notes";
 import Resume from "./windows/resume/Resume";
 import Spotify from "./windows/spotify/Spotify";
 import Cli from "./windows/cli/Cli";
-import { github } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const App = () => {
   const [windowState, setWindowState] = useState({
@@ -35,7 +34,7 @@ const App = () => {
         <Spotify windowName="spotify" setWindowState={setWindowState} />
       )}
       {windowState.cli && (
-        <Cli windowName="cLI" setWindowState={setWindowState} />
+        <Cli windowName="cli" setWindowState={setWindowState} />
       )}
     </div>
   );
